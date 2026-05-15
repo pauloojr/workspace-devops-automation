@@ -77,8 +77,8 @@ jobs:
             name: java-api-artifact
         - name: 🚀 Fake Deploy
           run: |
-            echo: "✅ Build: $ARTIFACT_NAME"
-            echo: "📡 Fake deploy to: https://staging.example.com"
+            echo "✅ Build: $ARTIFACT_NAME"
+            echo "📡 Fake deploy to: https://staging.example.com"
 
 
 
